@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,300,700");
+body{
+    font-family: 'Poppins', sans-serif !important;
+    background-color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+.bg-navbar{
+    background-color: #210535;
+    color: white;
+    padding: 10px 100px;
+}
+@media only screen and (max-width: 990px) {
+    .bg-navbar{
+        padding: 10px 20px;
+    }    
+}
+
+.text-white{
+    color: white;
+}
+.navbar-title{
+    font-weight: 600;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+    font-weight: normal;
+    color: #F5D5E0;
+}
+.btn-login{
+    background-color: white;
+    padding: 3px 30px;
+    border-radius: 5px;
+    color:#071633;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-login:hover{
+    text-decoration: none;
+}
+.btn-blue{
+    padding: 10px 30px;
+    background-color: #7B337D;
+    color: white;
+    border-radius: 10px;
+    border:0px;
+    margin-top: 20px;
+}
+.btn-blue a{
+    text-decoration: none;
+    color: white;
+}
+.hero-home{
+    background-image: url("images/dashboard1.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-detail{
+    background-image: url("images/event2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero-container{
+    padding: 50px 70px;
+    color: white;
+}
+@media only screen and (max-width: 990px) {
+    .hero-container{
+        padding: 0px 30px;
+    }
+}
+
+.infografis{
+    padding: 50px;
+}
+.text-infografis{
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+.text-infografis hr{
+    border-top: 1px solid #3BA2C0;
+}
+.more-link{
+    text-decoration: underline;
+    color: #1C503B;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 800px) {
+    .text-infografis{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .text-infografis{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+}
+
+.banner{
+    background-color: #F5D5E0;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px 0;
+}
+.banner h2{
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    color: #071633;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.btn-green{
+    background-color: #7B337D;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 25px;
+    margin-left: 30px;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.25));
+    color: white;
+    cursor: pointer;
+}
+.btn-green a{
+    text-decoration: none;
+    color: white;
+}
+.event{
+    padding: 30px 100px;
+}
+.link-more{
+    float: right;
+    color:  #5541D7;
+    text-decoration: underline;
+    font-style: italic;
+}
+@media only screen and (max-width: 900px) {
+    .event{
+        padding: 20px 50px;
+    }
+    .banner{
+        padding: 20px 30px;
+    }
+    .banner h2{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .btn-green{
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .event{
+        padding: 20px 20px;
+    }
+    .card-event{
+        padding-bottom: 20px;
+    }
+}
+.card-event button{
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-event a{
+    font-style: normal;
+}
+.bottom-left {
+  position: absolute;
+  top: 170px;
+  left: 50px;
+  color: white;
+  font-weight: normal;
+}
+.bottom-left-2 {
+  position: absolute;
+  top: 280px;
+  left: 50px;
+  color: white;
+  font-weight: normal;
+}
+.about-container{
+    padding: 50px 100px;
+    background-color: #F5D5E0;
+}
+.about-container hr{
+    border-top: 3px solid black;
+    width: 70%;
+}
+.about-container .row{
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 576px) {
+    .about-container{
+        padding: 30px;
+    }
+    .about-container h2{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+.footer{
+    background-color: #210535;
+    padding: 30px 50px;
+    color: white;
+}
+.footer-left{
+    border-right: 3px solid white;
+}
+.footer-right{
+    padding-left: 50px;
+}
+@media only screen and (max-width: 992px) {
+    .footer{
+        padding: 20px;
+    }
+    .footer-left img{
+        width: 30%;
+        position: relative;
+    }
+    .footer-left{
+        text-align: center;
+        border-right: 0;
+    }
+}
+.container-infografis{
+    padding: 100px;
+    text-align: center;
+}
+@media only screen and (max-width: 992px) {
+    .container-infografis{
+        padding: 30px;
+    }
+}
+
+.card-infografis{
+    background-color: #071633;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.card-infografis button{
+    background: #C874B2;
+    border-radius: 20px;
+    border: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.progress{
+    height: 25px;
+    margin-top: -10px;
+    border-radius: 10px;
+}
+.progress-bar p{
+    padding-top: 15px;
+    color: black;
+    margin-left: auto;
+    font-weight: bold;
+    margin-right: auto;
+}
+.maps{
+    width: 100%;
+    padding-top: 50px;
+}
+.maps iframe{
+    width: 100%
+}
+.hero-event{
+    background-image: url("images/dashboard2.jpg");
+    background-size: cover;
+    color: white;
+}
+.hero-event button{
+    background: transparent;
+    color: white;
+}
+.hero-event a{
+    text-decoration: none;
+    color: white;
+}
+.detail-event{
+    padding: 50px 100px;
+}
+.card-detail{
+    margin-top: 30px;
+    padding: 30px 70px;
+    background-color: #D2E2FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+@media only screen and (max-width: 830px) {
+    .detail-event{
+        padding: 30px;
+    }
+    .hero-event{
+        padding: 
+    }
+}
+.form-container{
+    padding: 50px 100px;
+}
+.form-container a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.form-card{
+    border: 5px solid #071633;
+    filter: drop-shadow(7px 10px 10px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    padding: 50px;
+}
+.form-card input{
+    margin-top: 10px;
+    background: #D2E2FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 0;
+    padding: 15px 40px;
+    width: 100%
+}
+.form-card textarea{
+    margin-top: 10px;
+    background: #D2E2FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 0;
+    padding: 15px 40px;
+    width: 100%
+}
+@media only screen and (max-width: 830px) {
+    .form-container{
+        padding: 30px;
+    }
+    .form-card{
+        padding: 10px;
+    }
+}
+.input-radio{
+    margin-top: 10px;
+    background: #D2E2FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 0;
+    padding: 0px 40px;
+    width: 100%
+}
+.container-radio {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background: #D2E2FF;
+  padding: 15px 50px;
+  width: 100%
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* Hide the browser's default radio button */
+.container-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 20;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border-radius: 50%;
+  margin-left: 20px;
+  border: 1px solid black;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container-radio input:checked ~ .checkmark {
+  background-color: black;
+}
+.checkmark-agree {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+.container-agree {
+  margin: 20px 10px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
